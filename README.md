@@ -10,10 +10,10 @@
 - Lectures:
    - The lectures are on Wednesdays and Fridays (from 10.15 to 12.00) only in-person in KE E-101 (see the full schedule [here](https://tp.educloud.no/uis/app/schedule?semester=26v&scheduleType=course&filterOpen=true&summary=true&pastWeeks=false&tab=calendar&course=DAT560%C2%A41))
    - The lecturers are Vinay Setty and Petra Galuscakova.
-   
 - Labs:
-   - The labs are in-person in week 1 and 2 and the rest will be hybrid (you can show up physically with a prior appointment with the TAs)
-   - Make an appointment with the student assistants for the help with lab
+   - The labs are in-person on Wednesdays (12.15 - 14.00) in KE D-302.
+   - Gabriel Iturra-Bocaz is the teaching assistant for the course.
+   - Make an appointment with the teaching assistant for the help with lab.
    - 3 ungraded (pass/fail) mandatory assignments for qualification to final exam.
 - Project:
    - 40% of the final grade is assigned to the group project (working code + written report + presentation).
