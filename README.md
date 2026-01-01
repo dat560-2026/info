@@ -50,7 +50,7 @@
 |      | 16.01.2026 | VAE continued                       | VS       | Generative Deep Learning Ch. 3 |          |
 | 4    | 21.01.2026 | GAN 1                               | VS       | Generative Deep Learning Ch. 4 |          |
 |      | 22.01.2026 | Lab                                  | GIB      |                                |          |
-|      | 23.01.2026 | GAN 2                               | PG       | Generative Deep Learning Ch. 4 |          |
+|      | 23.01.2026 | GAN 2                               | VS       | Generative Deep Learning Ch. 4 |          |
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
 |      | 28.01.2026 | **Assignment 1 deadline**               |          |                                |          |
 |      | 29.01.2026 | Lab                                  | GIB      |                                |          |
@@ -58,11 +58,11 @@
 | 6    | 04.02.2026 | LLM foundations – part 1            | VS       |                                |          |
 |      | 05.02.2026 | Lab                                  | GIB      |                                |          |
 |      | 06.02.2026 | LLM foundations – part 2            | VS       |                                |          |
-| 7    | 11.02.2026 | LLM prompting                       | PG       |                                |          |
+| 7    | 11.02.2026 | LLM prompting                       | VS       |                                |          |
 |      |            | Vision models                       |          |                                |          |
 |      | 11.02.2026 | **Assignment 2 deadline**               |          |                                |          |
 |      | 12.02.2026 | Lab                                  | GIB      |                                |          |
-|      | 13.02.2026 | LLM fine-tuning                     | PG       |                                |          |
+|      | 13.02.2026 | LLM fine-tuning                     | VS       |                                |          |
 |      |            | Multimodal                          |          |                                |          |
 | 8    | 18.02.2026 | Diffusion models – part 1           | VS       |                                |          |
 |      | 19.02.2026 | Lab                                  | GIB      |                                |          |
