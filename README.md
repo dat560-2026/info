@@ -52,7 +52,7 @@
 |      | 22.01.2026 | Lab                                  | GIB      |                                |          |
 |      | 23.01.2026 | GAN 2                               | PG       | Generative Deep Learning Ch. 4 |          |
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
-|      | 28.01.2026 | *Assignment 1 deadline*               |          |                                |          |
+|      | 28.01.2026 | **Assignment 1 deadline**               |          |                                |          |
 |      | 29.01.2026 | Lab                                  | GIB      |                                |          |
 |      | 30.01.2026 | Language Models – part 2            | VS       |                                |          |
 | 6    | 04.02.2026 | LLM foundations – part 1            | VS       |                                |          |
@@ -60,7 +60,7 @@
 |      | 06.02.2026 | LLM foundations – part 2            | VS       |                                |          |
 | 7    | 11.02.2026 | LLM prompting                       | PG       |                                |          |
 |      |            | Vision models                       |          |                                |          |
-|      | 11.02.2026 | Assignment 2 deadline               |          |                                |          |
+|      | 11.02.2026 | **Assignment 2 deadline**               |          |                                |          |
 |      | 12.02.2026 | Lab                                  | GIB      |                                |          |
 |      | 13.02.2026 | LLM fine-tuning                     | PG       |                                |          |
 |      |            | Multimodal                          |          |                                |          |
@@ -68,7 +68,7 @@
 |      | 19.02.2026 | Lab                                  | GIB      |                                |          |
 |      | 20.02.2026 | Diffusion models – part 2           | VS       |                                |          |
 | 9    | 25.02.2026 |                                      |          |                                |          |
-|      | 26.02.2026 | Lab                                  | GIB      |                                |          |
+|      | 26.02.2026 | **Assignment 2 deadline**               | GIB      |                                |          |
 |      | 27.02.2026 |                                      |          |                                |          |
 | 10   | 04.03.2026 |                                      |          |                                |          |
 |      | 05.03.2026 | Lab                                  | GIB      |                                |          |
