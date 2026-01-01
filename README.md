@@ -1,4 +1,28 @@
 # DAT560 Generative AI
+
+- [Course Structure](#Course Structure)
+- [Labs](#Labs)
+- [Lecture Schedule](#Lecture Schedule) 
+- [Updates](#Updates)
+
+
+# Course Structure
+- Lectures:
+   - The lectures are on Wednesdays and Fridays (from 10.15 to 12.00) only in-person in KE E-101 (see the full schedule [here](https://tp.educloud.no/uis/app/schedule?semester=26v&scheduleType=course&filterOpen=true&summary=true&pastWeeks=false&tab=calendar&course=DAT560%C2%A41))
+   - The lecturers are Vinay Setty and Petra Galuscakova.
+   
+- Labs:
+   - The labs are in-person in week 1 and 2 and the rest will be hybrid (you can show up physically with a prior appointment with the TAs)
+   - Make an appointment with the student assistants for the help with lab
+   - 3 ungraded (pass/fail) mandatory assignments for qualification to final exam.
+- Project:
+   - 40% of the final grade is assigned to the group project (working code + written report + presentation).
+   - 60% of the final grade is based on a written exam on Inspera with no Internet connection.
+
+# Lecture Schedule
+
+(Lab submission deadlines are marked with **bold**.)
+
 | Week | Date       | Topic                               | Lecturer | Resources                      | Comments |
 |------|------------|--------------------------------------|----------|--------------------------------|----------|
 | 2    | 07.01.2026 | Introduction (What is generative AI) | VS       | Generative Deep Learning Ch. 1 |          |
@@ -21,7 +45,7 @@
 |      | 22.01.2026 | Lab                                  | GIB      |                                |          |
 |      | 23.01.2026 | GAN 2                               | PG       | Generative Deep Learning Ch. 4 |          |
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
-|      | 28.01.2026 | Assignment 1 deadline               |          |                                |          |
+|      | 28.01.2026 | *Assignment 1 deadline*               |          |                                |          |
 |      | 29.01.2026 | Lab                                  | GIB      |                                |          |
 |      | 30.01.2026 | Language Models – part 2            | VS       |                                |          |
 | 6    | 04.02.2026 | LLM foundations – part 1            | VS       |                                |          |
