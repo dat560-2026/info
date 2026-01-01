@@ -1,12 +1,18 @@
 # DAT560 Generative AI
 
-- [Course Structure](#Course Structure)
+- [Course Structure](#Structure)
 - [Labs](#Labs)
-- [Lecture Schedule](#Lecture Schedule) 
+   - [QuickFeed signup](./signup.md)
+   - [QuickFeed link](https://uis.itest.run)
+   - [Lab submissions](./lab-submission.md)
+- [Lecture Schedule](#Schedule) 
 - [Updates](#Updates)
+- Communication
+   - [Discord server](https://github.com/dat240-2025/info/blob/main/signup.md#discord-dat560-server-registration)
+   - [Discord server invite](https://discord.gg/Wc6AqbAqE5)
+   
 
-
-# Course Structure
+# Structure
 - Lectures:
    - The lectures are on Wednesdays and Fridays (from 10.15 to 12.00) only in-person in KE E-101 (see the full schedule [here](https://tp.educloud.no/uis/app/schedule?semester=26v&scheduleType=course&filterOpen=true&summary=true&pastWeeks=false&tab=calendar&course=DAT560%C2%A41))
    - The lecturers are Vinay Setty and Petra Galuscakova.
@@ -19,7 +25,7 @@
    - 40% of the final grade is assigned to the group project (working code + written report + presentation).
    - 60% of the final grade is based on a written exam on Inspera with no Internet connection.
 
-# Lecture Schedule
+# Schedule
 
 (Lab submission deadlines are marked with **bold**.)
 
