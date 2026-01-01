@@ -1,4 +1,4 @@
-# Signing up to dat560 Advanced programming
+# Signing up to DAT560 Generative AI
 
 In this course we use various systems that require additional sign up procedures.
 
