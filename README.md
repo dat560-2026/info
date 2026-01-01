@@ -33,7 +33,8 @@
 |------|------------|--------------------------------------|----------|--------------------------------|----------|
 | 2    | 07.01.2026 | Introduction (What is generative AI) | VS       | Generative Deep Learning Ch. 1 |          |
 |      |            | – Course structure                   |          |                                |          |
-|      |            | – Assignments / projects             |          |                                |          |
+|      |            | – Assignments / project             |          |                                |          |
+|      |            | – Probability and Statistics basics            |          |                                |          |
 |      |            | – Generative modeling                |          |                                |          |
 |      | 07.01.2026 | Lab                                  | GIB      |                                |          |
 |      |            | – Setup Python / VS Code             |          |                                |          |
