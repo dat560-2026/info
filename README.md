@@ -60,21 +60,21 @@
 |      | 06.02.2026 | LLM foundations – part 2            | VS       |                                |          |
 | 7    | 11.02.2026 | LLM prompting                       | VS       |                                |          |
 |      |            | Vision models                       |          |                                |          |
-|      | 11.02.2026 | **Assignment 2 deadline**               |          |                                |          |
+|      | 11.02.2026 |                |          |                                |          |
 |      | 12.02.2026 | Lab                                  | GIB      |                                |          |
 |      | 13.02.2026 | LLM fine-tuning                     | VS       |                                |          |
-|      |            | Multimodal                          |          |                                |          |
-| 8    | 18.02.2026 | Diffusion models – part 1           | VS       |                                |          |
-|      | 19.02.2026 | Lab                                  | GIB      |                                |          |
-|      | 20.02.2026 | Diffusion models – part 2           | VS       |                                |          |
+|      |            |                           |          |                                |          |
+| 8    | 18.02.2026 |           | VS       |                                |          |
+|      | 19.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
+|      | 20.02.2026 |          | VS       |                                |          |
 | 9    | 25.02.2026 |                                      |          |                                |          |
-|      | 26.02.2026 | **Assignment 2 deadline**               | GIB      |                                |          |
+|      | 26.02.2026 |               | GIB      |                                |          |
 |      | 27.02.2026 |                                      |          |                                |          |
 | 10   | 04.03.2026 |                                      |          |                                |          |
 |      | 05.03.2026 | Lab                                  | GIB      |                                |          |
 |      | 06.03.2026 |                                      |          |                                |          |
 | 11   | 11.03.2026 |                                      |          |                                |          |
-|      | 12.03.2026 | Lab                                  | GIB      |                                |          |
+|      | 12.03.2026 | **Assignment 3 deadline**                                   | GIB      |                                |          |
 |      | 13.03.2026 |                                      |          |                                |          |
 | 12   | 18.03.2026 |                                      |          |                                |          |
 |      | 19.03.2026 | Lab                                  | GIB      |                                |          |
