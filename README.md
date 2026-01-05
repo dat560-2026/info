@@ -2,9 +2,6 @@
 
 - [Course Structure](#Structure)
 - [Labs](#Labs)
-   - [QuickFeed signup](./signup.md)
-   - [QuickFeed link](https://uis.itest.run)
-   - [Lab submissions](./lab-submission.md)
 - [Lecture Schedule](#Schedule) 
 - [Updates](#Updates)
 - Communication
