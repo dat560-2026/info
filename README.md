@@ -1,7 +1,9 @@
 # DAT560 Generative AI
 
 - [Course Structure](#Structure)
-- [Lecture Schedule](#Schedule) 
+- [Lecture Schedule](#Schedule)
+- Labs
+   - [Signup](signup.md)
 - [Updates](#Updates)
 - Communication
    - [Discord server](https://github.com/dat240-2025/info/blob/main/signup.md#discord-dat560-server-registration)
