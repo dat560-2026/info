@@ -1,92 +1,89 @@
 # Signing up to DAT560 Generative AI
 
-In this course we use GitHub Classroom for distributing assignments and collecting submissions. Your submission is your Git history on GitHub: you push commits, the autograder runs automatically.
+In this course we use **GitHub Classroom** for distributing assignments and collecting submissions.  
+Your submission is your Git history on GitHub: you push commits, the autograder runs automatically.
 
-## 1) Create the right GitHub account (do this first)
+In addition, you must **register your GitHub username in Canvas** before submitting assignments.
+
+---
+
+## 1) Create the right GitHub account (do this first if you dont have a GitHub account already)
 
 1. Go to https://github.com and create a GitHub account (or use an existing one).
 2. **Add your university student email address** to your GitHub account:
    - GitHub → Settings → Emails → Add email
    - Add your *student email address* and verify it.
 3. Pick the GitHub account you will use for this course and **stick with it**.
-   - **No switching accounts later.**
-   - **No username changes later.**
-   - Your GitHub account must match the roster entry you will select in GitHub Classroom.
+   - **No switching accounts later**
+   - **No username changes later**
+   - This account must be used for **all submissions in this course**
 
-Why so strict? GitHub Classroom links your GitHub account to the course roster for tracking and grading. This linking happens when you join/accept an assignment.  [The GitHub Blog](https://github.blog/developer-skills/github-education/set-up-your-digital-classroom-with-github-classroom/)
+Why so strict? GitHub Classroom permanently associates your GitHub account with your course submissions, and this account is used for grading and tracking throughout the course.  
+[The GitHub Blog](https://github.blog/developer-skills/github-education/set-up-your-digital-classroom-with-github-classroom/)
 
-## 2) Accept the course invitations (watch your email)
+### How to find your GitHub username (If you already have a GitHub account)
 
-Teaching staff will add you to the GitHub Classroom roster manually and send invitations to your **university student email**.
+Your GitHub username is the name shown:
+- at the top right of GitHub when you click your profile picture, and
+- in your profile URL: https://github.com/
+- Example:
+   - If your profile URL is `https://github.com/octocat`
+   - Your GitHub username is `octocat`
+---
+
+
+## 2) Register your GitHub username in Canvas (mandatory)
+
+Before accepting any GitHub Classroom assignment, you must register your GitHub username in Canvas.
+
+1. Go to Canvas and complete the **GitHub Username Registration** quiz [direct link](https://stavanger.instructure.com/courses/17651/quizzes/13006)
+2. Enter **your GitHub username only**:
+   - not your full name
+   - not your email
+   - not a URL
+   - Like `octocat`
+3. Submit the quiz/survey once.
+
+Important:
+- This information is visible **only to course staff**.
+- The username you register must match the GitHub account you use for **all submissions**.
+- Do **not** change your GitHub username after registering it.
+
+Failure to register your GitHub username correctly may result in submissions not being graded.
+
+---
+
+## 3) Accept the course invitations (watch your email)
+
+Teaching staff will invite students to GitHub Classroom.
 
 You must accept:
-1. The invitation to join the course GitHub organization (GitHub sends an email invitation).
-2. The assignment invitation (GitHub Classroom link).
+1. The invitation to join the course GitHub organization (GitHub may send an email).
+2. The assignment invitation via the GitHub Classroom link provided in Canvas.
 
 If you do not accept the invitations, you will not get your private assignment repository.
 
-## 3) Join the classroom and link your roster identity (critical step)
+---
 
-When you open the assignment invitation link for the first time, GitHub Classroom will ask you to:
-1. Authorize GitHub Classroom (click “Authorize GitHub”).
-2. **Select your roster identifier** (your name/email as listed) and join the classroom.
+## 4) Join the classroom and create your assignment repository
 
-Important:
-- **Select your own roster entry only.**
-- If you choose the wrong roster entry, your submissions may be graded under the wrong person.
-- Because we roster manually and grade by roster identity, **you must use the correct GitHub account** when doing this.  [haagahelia.github.io](https://haagahelia.github.io/frontendprogramming/docs/general/github/)
+When you open a GitHub Classroom assignment link:
 
-## 4) Get your assignment repository and work normally
+1. Authorize GitHub Classroom (first time only).
+2. GitHub Classroom will create a **private assignment repository** for you in the course organization.
+3. You will be redirected to your repository automatically.
 
-After accepting the assignment:
-- GitHub Classroom creates a **private repository** for you in the course organization.
-- Clone it locally, work, commit, and push.
+You must use the **same GitHub account** that you registered in Canvas.
+
+---
+
+## 5) Work on assignments and submit
 
 Basic workflow:
-1. Clone the repo:
-   - `git clone <your-repo-url>`
-2. Work only on the allowed parts (see below).
-3. Commit and push:
-   - `git add ...`
-   - `git commit -m "message"`
-   - `git push`
 
-## 5) Strict rule: protected paths are not allowed to be modified
-
-You are **not allowed** to modify any content under:
-
-- `.github/**/*`
-- `requirements.txt`
-- `grader/**`
-- `tests/**`
-- `data/**`
-
-These are protected grading and infrastructure files.
-
-If you modify any of the above:
-- it is detected automatically (GitHub Classroom flags “Protected file(s) modified” on your submission), and
-- it results in **automatic disqualification** according to course policy.
-
-GitHub Classroom supports “Protected file paths” and labels submissions that edited them.  [GitHub Docs](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment)
-
-Allowed area:
-- You should only edit files under `student/**` unless explicitly stated otherwise in the assignment text.
-
-## 6) Autograding and feedback
-
-- Every push triggers the autograder (tests + training sanity checks).
-- You will see pass/fail feedback in GitHub Classroom and in GitHub Actions for your repo.
-
-## If something goes wrong
-
-Common problems:
-- You used the wrong GitHub account when accepting the assignment.
-- You selected the wrong roster entry.
-- You did not accept the GitHub organization invite email.
-
-Fix:
-- Contact teaching staff immediately.
-- Do not try to “hack” it by creating new accounts or changing usernames.
+1. Clone your repository:
+   ```bash
+   git clone <your-repository-url>
 
 ## Discord dat560 Server Registration
 
