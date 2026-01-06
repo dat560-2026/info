@@ -13,7 +13,7 @@ In this course we use GitHub Classroom for distributing assignments and collecti
    - **No username changes later.**
    - Your GitHub account must match the roster entry you will select in GitHub Classroom.
 
-Why so strict? GitHub Classroom links your GitHub account to the course roster for tracking and grading. This linking happens when you join/accept an assignment.  [oai_citation:0‡The GitHub Blog](https://github.blog/developer-skills/github-education/set-up-your-digital-classroom-with-github-classroom/?utm_source=chatgpt.com)
+Why so strict? GitHub Classroom links your GitHub account to the course roster for tracking and grading. This linking happens when you join/accept an assignment.  [The GitHub Blog](https://github.blog/developer-skills/github-education/set-up-your-digital-classroom-with-github-classroom/)
 
 ## 2) Accept the course invitations (watch your email)
 
@@ -34,7 +34,7 @@ When you open the assignment invitation link for the first time, GitHub Classroo
 Important:
 - **Select your own roster entry only.**
 - If you choose the wrong roster entry, your submissions may be graded under the wrong person.
-- Because we roster manually and grade by roster identity, **you must use the correct GitHub account** when doing this.  [oai_citation:1‡haagahelia.github.io](https://haagahelia.github.io/frontendprogramming/docs/general/github/?utm_source=chatgpt.com)
+- Because we roster manually and grade by roster identity, **you must use the correct GitHub account** when doing this.  [haagahelia.github.io](https://haagahelia.github.io/frontendprogramming/docs/general/github/)
 
 ## 4) Get your assignment repository and work normally
 
@@ -67,7 +67,7 @@ If you modify any of the above:
 - it is detected automatically (GitHub Classroom flags “Protected file(s) modified” on your submission), and
 - it results in **automatic disqualification** according to course policy.
 
-GitHub Classroom supports “Protected file paths” and labels submissions that edited them.  [oai_citation:2‡GitHub Docs](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment?utm_source=chatgpt.com)
+GitHub Classroom supports “Protected file paths” and labels submissions that edited them.  [GitHub Docs](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment)
 
 Allowed area:
 - You should only edit files under `student/**` unless explicitly stated otherwise in the assignment text.
