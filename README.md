@@ -1,7 +1,6 @@
 # DAT560 Generative AI
 
 - [Course Structure](#Structure)
-- [Labs](#Labs)
 - [Lecture Schedule](#Schedule) 
 - [Updates](#Updates)
 - Communication
