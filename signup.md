@@ -1,96 +1,92 @@
 # Signing up to DAT560 Generative AI
 
-In this course we use various systems that require additional sign up procedures.
+In this course we use GitHub Classroom for distributing assignments and collecting submissions. Your submission is your Git history on GitHub: you push commits, the autograder runs automatically.
 
-## QuickFeed
+## 1) Create the right GitHub account (do this first)
 
-This course uses QuickFeed, a tool developed at the University of Stavanger
-for students and teaching staff to manage the submission and validation of
-lab assignments. All lab submissions from students are handled using Git,
-a source code management system, and GitHub, a web-based hosting service for
-Git source repositories. Thus, basic knowledge of these tools are necessary.
-The procedure used to submit your lab assignments is explained in the [lab submission process](lab-submission.md).
+1. Go to https://github.com and create a GitHub account (or use an existing one).
+2. **Add your university student email address** to your GitHub account:
+   - GitHub → Settings → Emails → Add email
+   - Add your *student email address* and verify it.
+3. Pick the GitHub account you will use for this course and **stick with it**.
+   - **No switching accounts later.**
+   - **No username changes later.**
+   - Your GitHub account must match the roster entry you will select in GitHub Classroom.
 
-Students push their updated lab submissions to GitHub. Every lab submission is
-then processed by a custom continuous integration tool. This tool will run
-several test cases on the submitted code. QuickFeed generates feedback that
-let the students verify if their submission implements the required functionality.
-This feedback is available through a web interface. The feedback from the
-QuickFeed system can be used by students to improve their submissions.
+Why so strict? GitHub Classroom links your GitHub account to the course roster for tracking and grading. This linking happens when you join/accept an assignment.  [oai_citation:0‡The GitHub Blog](https://github.blog/developer-skills/github-education/set-up-your-digital-classroom-with-github-classroom/?utm_source=chatgpt.com)
 
-## Git and GitHub
+## 2) Accept the course invitations (watch your email)
 
-Git is a distributed revision control and source code management system.
-Basic knowledge of Git is required for handing in the lab assignments.
-There are many great resources available online for learning Git.
-A good book is Pro Git, which is available for free [here](https://git-scm.com/book).
-Chapter 2.1 and 2.2 should contain the necessary information for delivering the lab assignments.
+Teaching staff will add you to the GitHub Classroom roster manually and send invitations to your **university student email**.
 
-GitHub is a web-based hosting service for software development projects that use the Git revision control system.
-An introduction to Git and GitHub is available in [this video](http://youtu.be/U8GBXvdmHT4).
+You must accept:
+1. The invitation to join the course GitHub organization (GitHub sends an email invitation).
+2. The assignment invitation (GitHub Classroom link).
 
-You need to sign up for a GitHub account to get access to the needed course material.
+If you do not accept the invitations, you will not get your private assignment repository.
 
-## QuickFeed Registration
+## 3) Join the classroom and link your roster identity (critical step)
 
-Follow the steps below to register and sign up for the course on QuickFeed.
-Here are two short videos describing these steps: [Part 1](https://youtu.be/3KJm4ABvTAo) and [Part 2](https://youtu.be/kMyH_-8xMGc).
+When you open the assignment invitation link for the first time, GitHub Classroom will ask you to:
+1. Authorize GitHub Classroom (click “Authorize GitHub”).
+2. **Select your roster identifier** (your name/email as listed) and join the classroom.
 
-1. Go to [GitHub](http://github.com) and register.
-   A GitHub account is required to sign in to QuickFeed.
-   You can skip this step if you already have an account.
+Important:
+- **Select your own roster entry only.**
+- If you choose the wrong roster entry, your submissions may be graded under the wrong person.
+- Because we roster manually and grade by roster identity, **you must use the correct GitHub account** when doing this.  [oai_citation:1‡haagahelia.github.io](https://haagahelia.github.io/frontendprogramming/docs/general/github/?utm_source=chatgpt.com)
 
-2. Click the "Sign in with GitHub" button in [QuickFeed](http://uis.itest.run) to register.
-   You will then be taken to GitHub's website.
+## 4) Get your assignment repository and work normally
 
-3. Approve that our QuickFeed application may have permission to access to the requested parts of your account.
-   It is possible to make a separate GitHub account for only this (and other) courses if you do not want QuickFeed to access your personal one with the requested permissions.
+After accepting the assignment:
+- GitHub Classroom creates a **private repository** for you in the course organization.
+- Clone it locally, work, commit, and push.
 
-## Signing up for the Course on QuickFeed
+Basic workflow:
+1. Clone the repo:
+   - `git clone <your-repo-url>`
+2. Work only on the allowed parts (see below).
+3. Commit and push:
+   - `git add ...`
+   - `git commit -m "message"`
+   - `git push`
 
-1. Click the Plus (+) menu and select “Join course”. Available courses will be listed.
+## 5) Strict rule: protected paths are not allowed to be modified
 
-2. Find the course and click Enroll.
+You are **not allowed** to modify any content under:
 
-3. Wait for the teaching staff to confirm your QuickFeed registration.
+- `.github/**/*`
+- `requirements.txt`
+- `grader/**`
+- `tests/**`
+- `data/**`
 
-4. You will then be invited to the course organization on GitHub and two separate repositories.
-   You will need to navigate to each of these links and accept these invitations:
+These are protected grading and infrastructure files.
 
-   - Navigate to the course organization [dat560-2026](https://github.com/dat560-2026) accept the invitation.
-   - Navigate to the [assignments](https://github.com/dat560-2026/assignments) repository and accept the invitation.
-   - Navigate to your private <https://github.com/dat560-2026/username-labs> repository and accept the invitation.
-     Remember to replace `username` in this link with your own GitHub `username`.
+If you modify any of the above:
+- it is detected automatically (GitHub Classroom flags “Protected file(s) modified” on your submission), and
+- it results in **automatic disqualification** according to course policy.
 
-   Several invitation emails will also be sent to the email address associated with your GitHub account.
-   However, emails from GitHub can sometimes take a while to arrive.
+GitHub Classroom supports “Protected file paths” and labels submissions that edited them.  [oai_citation:2‡GitHub Docs](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment?utm_source=chatgpt.com)
 
-5. Once you have accepted the invitations, you will get your own repository under `dat560-2026`, which is the course's organization on GitHub.
+Allowed area:
+- You should only edit files under `student/**` unless explicitly stated otherwise in the assignment text.
 
-## Group Sign up on QuickFeed
+## 6) Autograding and feedback
 
-1. Read the [policy about group assignments](policy.md#group-assignments).
-   Find and agree with another student to form a group.
-   We prefer groups of two, but will allow groups of three.
-   It is important that all group members agree to contribute equally to the group assignments.
+- Every push triggers the autograder (tests + training sanity checks).
+- You will see pass/fail feedback in GitHub Classroom and in GitHub Actions for your repo.
 
-   If you prefer to work alone, you must still create a group.
+## If something goes wrong
 
-2. Agree on a name for the group.
-   The name will be used as the group's GitHub repository.
-   We prefer group names that identifies the persons in the group.
-   **The group name cannot be changed later.**
+Common problems:
+- You used the wrong GitHub account when accepting the assignment.
+- You selected the wrong roster entry.
+- You did not accept the GitHub organization invite email.
 
-3. Navigate to the course's left menu bar and select “New Group”.
-
-4. Enter the name of the group in the textbox above the list of students.
-
-5. In the dialog, find your own name via the “Search for students” text box.
-   Click the Plus (+) symbol to add yourself to the group.
-
-6. Repeat the above step for the other group members.
-
-7. Click the “Create” button.
+Fix:
+- Contact teaching staff immediately.
+- Do not try to “hack” it by creating new accounts or changing usernames.
 
 ## Discord dat560 Server Registration
 
