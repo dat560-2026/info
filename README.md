@@ -30,10 +30,10 @@
 | Week | Date       | Topic                               | Lecturer | Resources                      | Comments |
 |------|------------|--------------------------------------|----------|--------------------------------|----------|
 | 2    | 07.01.2026 | Introduction (What is generative AI) | VS       | Generative Deep Learning Ch. 1 |          |
-|      |            | – Course structure                   |          |                                |          |
-|      |            | – Assignments / project             |          |                                |          |
-|      |            | – Probability and Statistics basics            |          |                                |          |
-|      |            | – Generative modeling                |          |                                |          |
+|      |            | – Course structure                   |          |   [slides](slides/Lecture-01a-Introduction.pdf)                             |          |
+|      |            | – Assignments / project             |          |                               |          |
+|      |            | – Probability and Statistics basics            |         |    [slides](slides/Lecture-01c-probability_theory.pdf)                             |          |
+|      |            | – Generative modeling                |          |   [slides](slides/Lecture-01b-generative_modeling.pdf)                             |          |
 |      | 07.01.2026 | Lab                                  | GIB      |                                |          |
 |      |            | – Setup Python / VS Code             |          |                                |          |
 |      |            | – Setup QuickFeed                    |          |                                |          |
