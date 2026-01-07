@@ -79,12 +79,60 @@ You must use the **same GitHub account** that you registered in Canvas.
 
 ## 5) Work on assignments and submit
 
+After accepting an assignment, GitHub Classroom creates a **private repository** for you in the course organization.
+
 Basic workflow:
 
 1. Clone your repository:
-   ```bash
+   ```
    git clone <your-repository-url>
+   ```
+2. Make changes **only** in the allowed areas.
+3. Commit your work with a meaningful message:
+   ```
+   git add .
+   git commit -m "Meaningful commit message"
+   ```
+4. Push your changes:
+   ```
+   git push
+   ```
 
+All submissions must be made from the **same GitHub account** that you registered in Canvas.
+
+Each push triggers the autograder automatically.
+
+## 6) Strict rule: protected paths are not allowed to be modified
+
+You are **not allowed** to modify any content under:
+
+- `.github/**/*`
+- `requirements.txt`
+- `grader/**`
+- `tests/**`
+- `data/**`
+
+These files are part of the grading and infrastructure system.
+
+If you modify any of the above:
+- the change is detected automatically, and
+- it results in **automatic disqualification** according to course policy.
+
+GitHub Classroom monitors protected file paths and flags submissions that modify them.
+
+Allowed area:
+- You should only edit files under `student/**` unless explicitly stated otherwise in the assignment description.
+
+---
+
+## 7) Autograding and feedback
+
+- Every push to your GitHub repository triggers the autograder automatically.
+- The autograder runs public tests and additional hidden checks.
+- Feedback is visible in:
+  - GitHub Classroom, and
+  - GitHub Actions in your assignment repository.
+- Passing public tests does **not** guarantee full credit if hidden checks fail.
 ## Discord dat560 Server Registration
 
 1. Go to [Discord](https://discord.com/register) and register.
