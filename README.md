@@ -17,7 +17,7 @@
    - The lecturers are Vinay Setty and Petra Galuscakova.
 - Labs:
    - The labs are in-person on Wednesdays (12.15 - 14.00) in KE D-302.
-   - Gabriel Iturra-Bocaz is the teaching assistant for the course.
+   - [Gabriel Iturra-Bocaz](https://giturra.cl/) is the teaching assistant for the course.
    - Make an appointment with the teaching assistant for the help with lab.
    - 3 ungraded (pass/fail) mandatory assignments for qualification to final exam.
 - Project:
