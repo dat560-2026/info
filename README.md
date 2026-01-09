@@ -14,7 +14,7 @@
 # Structure
 - Lectures:
    - The lectures are on Wednesdays (KE E-101) and Fridays (KE A-101) (from 10.15 to 12.00) only in-person in (see the full schedule [here](https://tp.educloud.no/uis/app/schedule?semester=26v&scheduleType=course&filterOpen=true&summary=true&pastWeeks=false&tab=calendar&course=DAT560%C2%A41))
-   - The lecturers are Vinay Setty and Petra Galuscakova.
+   - The lecturers are [Vinay Setty](https://vinaysetty.com) and [Petra Galuscakova](https://galuscakova.github.io/).
 - Labs:
    - The labs are in-person on Wednesdays (12.15 - 14.00) in KE D-302.
    - [Gabriel Iturra-Bocaz](https://giturra.cl/) is the teaching assistant for the course.
