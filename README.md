@@ -37,7 +37,7 @@
 |      |            | – Generative modeling                |          |   [slides](slides/Lecture-01b-generative_modeling.pdf)                             |          |
 |      | 07.01.2026 | Lab                                  | GIB      |                                |          |
 |      |            | – Setup Python / VS Code             |          |                                |          |
-|      |            | – Setup QuickFeed                    |          |                                |          |
+|      |            |                    |          |                                |          |
 |      | 09.01.2026 | Deep learning recap                 | PG       | Generative Deep Learning Ch. 2 | VS away  |
 |      |            | – Deep neural networks              |          |   [slides](slides/Lecture-02a-DL.pdf) [notebook](https://colab.research.google.com/drive/1BMxHC7E3X2BIbZRn9FGdR3H4_K0EJNbZ?usp=sharing)                             |          |
 |      |            | – CNN                               |          |    [slides](slides/Lecture-02b-CNN.pdf) [notebook](https://colab.research.google.com/drive/1U3t4qWZSX6E43TJ37hJE_aeCt3t2puyS?usp=sharing)                           |          |
