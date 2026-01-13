@@ -9,7 +9,9 @@
 - Communication
    - [Discord server](https://github.com/dat240-2025/info/blob/main/signup.md#discord-dat560-server-registration)
    - [Discord server invite](https://discord.gg/Wc6AqbAqE5)
-   
+
+# Updates
+- Assignment 1 is now released, you should have received GitHub org invite and link to the assignment in Canvas. See this [guide](assignments/assignment1.md) to get started and for useful tips.
 
 # Structure
 - Lectures:
