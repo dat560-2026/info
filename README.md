@@ -4,7 +4,7 @@
 - [Lecture Schedule](#Schedule)
 - Labs
    - [Signup](signup.md)
-   - [Submission](submission.md)
+   - [Assignment 1](assignments/assignment1.md)
 - [Updates](#Updates)
 - Communication
    - [Discord server](https://github.com/dat240-2025/info/blob/main/signup.md#discord-dat560-server-registration)
