@@ -82,7 +82,7 @@ Should:
 
 ---
 
-## 5. Forward pass: Monte Carlo estimate of ELBO
+## 5. Forward pass: Monte Carlo estimate of ELBO (Evidence Lower BOund)
 
 ### Theory
 The expectation Eqφ(z|x)[log p(x|z)] is approximated using Monte Carlo sampling.
