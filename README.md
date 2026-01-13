@@ -20,6 +20,8 @@
    - [Gabriel Iturra-Bocaz](https://giturra.cl/) is the teaching assistant for the course.
    - Make an appointment with the teaching assistant for the help with lab.
    - 3 ungraded (pass/fail) mandatory assignments for qualification to final exam.
+   - Each assignment must be submitted to GitHub Classroom platform and achieve at least 80% score in the tests and evaluations to be approved.
+   - Once 80% score is reached the student must get the assignment approved by one of the TAs or lecturers. This approval process is intentionally manual to ensure that you understand assignment submission you made and be prepared to answer any questions about it.
 - Project:
    - 40% of the final grade is assigned to the group project (working code + written report + presentation).
    - 60% of the final grade is based on a written exam on Inspera with no Internet connection.
