@@ -57,45 +57,42 @@
 |      | 23.01.2026 | GAN 2                               | VS       | Generative Deep Learning Ch. 4 |          |
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
 |      | 28.01.2026 | **Assignment 1 deadline**               |          |                                |          |
-|      | 29.01.2026 | Lab                                  | GIB      |                                |          |
-|      | 30.01.2026 | Language Models – part 2            | VS       |                                |          |
+|      | 29.01.2026 | Language Models – part 2            | VS      |                                |          |
 | 6    | 04.02.2026 | LLM foundations – part 1            | VS       |                                |          |
-|      | 05.02.2026 | Lab                                  | GIB      |                                |          |
+|      | 04.02.2026 | Lab                                  | GIB      |                                |          |
 |      | 06.02.2026 | LLM foundations – part 2            | VS       |                                |          |
 | 7    | 11.02.2026 | LLM prompting                       | VS       |                                |          |
 |      |            | Vision models                       |          |                                |          |
-|      | 11.02.2026 |                |          |                                |          |
-|      | 12.02.2026 | Lab                                  | GIB      |                                |          |
+|      | 11.02.2026 |  Lab              |          |       GIB                         |          |
 |      | 13.02.2026 | LLM fine-tuning                     | VS       |                                |          |
-|      |            |                           |          |                                |          |
 | 8    | 18.02.2026 |           | VS       |                                |          |
-|      | 19.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
+|      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
 |      | 20.02.2026 |          | VS       |                                |          |
 | 9    | 25.02.2026 |                                      |          |                                |          |
-|      | 26.02.2026 |               | GIB      |                                |          |
+|      | 25.02.2026 |               | GIB      |                                |          |
 |      | 27.02.2026 |                                      |          |                                |          |
 | 10   | 04.03.2026 |                                      |          |                                |          |
 |      | 05.03.2026 | Lab                                  | GIB      |                                |          |
-|      | 06.03.2026 |                                      |          |                                |          |
+|      | 04.03.2026 |                                      |          |                                |          |
 | 11   | 11.03.2026 |                                      |          |                                |          |
-|      | 12.03.2026 | **Assignment 3 deadline**                                   | GIB      |                                |          |
+|      | 11.03.2026 | **Assignment 3 deadline**                                   | GIB      |                                |          |
 |      | 13.03.2026 |                                      |          |                                |          |
 | 12   | 18.03.2026 |                                      |          |                                |          |
-|      | 19.03.2026 | Lab                                  | GIB      |                                |          |
+|      | 18.03.2026 | Lab                                  | GIB      |                                |          |
 |      | 20.03.2026 |                                      |          |                                |          |
 | 13   | 25.03.2026 |                                      |          |                                |          |
-|      | 26.03.2026 | Lab                                  | GIB      |                                |          |
+|      | 25.03.2026 | Lab                                  | GIB      |                                |          |
 |      | 27.03.2026 |                                      |          |                                |          |
 | 14   | 01.04.2026 | No lecture easter week                                     |          |                                |          |
-|      | 03.04.2026 | No lecture easter week                                     |          |                                |          |
+|      | 01.04.2026 | No lecture easter week                                     |          |                                |          |
 |      | 02.04.2026 | No lecture easter week                                  | GIB      |                                |          |
 | 15   | 08.04.2026 |                                      |          |                                |          |
-|      | 10.04.2026 |                                      |          |                                |          |
+|      | 08.04.2026 |                                      |          |                                |          |
 |      | 09.04.2026 | Lab                                  | GIB      |                                |          |
 | 16   | 15.04.2026 |                                      |          |                                |          |
-|      | 17.04.2026 | **Project + report due**                                     |          |                                |          |
+|      | 15.04.2026 | **Project + report due**                                     |          |                                |          |
 |      | 16.04.2026 | Lab                                  |       |                                |          |
 | 17   | 22.04.2026 |                                      |          |                                |          |
-|      | 23.04.2026 | Project presentation + Q&A                                  |       |                                |          |
+|      | 22.04.2026 | Project presentation + Q&A                                  |       |                                |          |
 |      | 24.04.2026 |  Project presentation + Q&A                                    |          |                                |          |
 
