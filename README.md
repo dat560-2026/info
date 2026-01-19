@@ -58,16 +58,15 @@
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
 |      | 28.01.2026 | **Assignment 1 deadline**               |          |                                |          |
 |      | 29.01.2026 | Language Models – part 2            | VS      |                                |          |
-| 6    | 04.02.2026 | LLM foundations – part 1            | VS       |                                |          |
+| 6    | 04.02.2026 | No lecture           | VS       |                                |          |
 |      | 04.02.2026 | Lab                                  | GIB      |                                |          |
-|      | 06.02.2026 | LLM foundations – part 2            | VS       |                                |          |
-| 7    | 11.02.2026 | LLM prompting                       | VS       |                                |          |
-|      |            | Vision models                       |          |                                |          |
+|      | 06.02.2026 | LLM foundations – part 1            | VS       |                                |          |
+| 7    | 11.02.2026 | LLM foundations – part 2                       | VS       |                                |          |
 |      | 11.02.2026 |  Lab              |          |       GIB                         |          |
-|      | 13.02.2026 | LLM fine-tuning                     | VS       |                                |          |
-| 8    | 18.02.2026 |           | VS       |                                |          |
+|      | 13.02.2026 |  LM prompting                     | VS       |                                |          |
+| 8    | 18.02.2026 |  LLM fine-tuning - part 1        | VS       |                                |          |
 |      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
-|      | 20.02.2026 |          | VS       |                                |          |
+|      | 20.02.2026 |  LLM fine-tuning - part 2        | VS       |                                |          |
 | 9    | 25.02.2026 |                                      |          |                                |          |
 |      | 25.02.2026 |               | GIB      |                                |          |
 |      | 27.02.2026 |                                      |          |                                |          |
