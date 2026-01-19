@@ -58,7 +58,7 @@
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
 |      | 28.01.2026 | **Assignment 1 deadline**               |          |                                |          |
 |      | 29.01.2026 | Language Models – part 2            | VS      |                                |          |
-| 6    | 04.02.2026 | No lecture           | VS       |                                |          |
+| 6    | 04.02.2026 | **No lecture**           | Department workshop       |                                |          |
 |      | 04.02.2026 | Lab                                  | GIB      |                                |          |
 |      | 06.02.2026 | LLM foundations – part 1            | VS       |                                |          |
 | 7    | 11.02.2026 | LLM foundations – part 2                       | VS       |                                |          |
