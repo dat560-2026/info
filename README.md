@@ -54,7 +54,7 @@
 |      | 16.01.2026 | VAE continued                       | VS       | Generative Deep Learning Ch. 3 |          |
 | 4    | 21.01.2026 | GAN 1                               | VS       | Generative Deep Learning Ch. 4 |          |
 |      | 21.01.2026 | Lab                                  | GIB      |                                |          |
-|      | 23.01.2026 | GAN 2                               | VS       | Generative Deep Learning Ch. 4 |          |
+|      | 23.01.2026 | GAN 2                               | VS       | Generative Deep Learning Ch. 10 |          |
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
 |      | 28.01.2026 | **Assignment 1 deadline**               |          |                                |          |
 |      | 29.01.2026 | Language Models – part 2            | VS      |                                |          |
