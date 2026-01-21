@@ -53,7 +53,7 @@
 |      | 14.01.2026 | Lab                                  | GIB      |                                |          |
 |      | 16.01.2026 | VAE continued                       | VS       | Generative Deep Learning Ch. 3 |          |
 | 4    | 21.01.2026 | GAN 1                               | VS       | Generative Deep Learning Ch. 4 |          |
-|     |  | Why study GANs? and comparision to VAE                               | VS       |  |          |
+|     |  | Why study GANs? and comparision to VAE                               | VS       | [slides](slides/Lecture-04-GANs.pdf) |          |
 |     |  | How to train GANs?                               | VS       |  |          |
 |     |  | GAN failures                               | VS       |  |          |
 |     |  | GAN vairations (WGAN and CGAN)                               | VS       |  |          |
