@@ -1,45 +1,6 @@
-# 🦜 Generative Deep Learning - 2nd Edition Codebase
+# Notebooks from Generative Deep Learning - 2nd Edition book (with modifications)
 
-The official code repository for the second edition of the O'Reilly book *Generative Deep Learning: Teaching Machines to Paint, Write, Compose and Play*.
-
-[O'Reilly link](https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/)
-
-[Amazon US link](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1098134184/)
-
-<img src="img/book_cover.png" width="300px">
-
-## 📖 Book Chapters
-
-Below is a outline of the book chapters:
-
-*Part I: Introduction to Generative Deep Learning*
-
-1. Generative Modeling
-2. Deep Learning
-
-*Part II: Methods*
-
-3. Variational Autoencoders
-4. Generative Adversarial Networks
-5. Autoregressive Models
-6. Normalizing Flows
-7. Energy-Based Models
-8. Diffusion Models
-
-*Part III: Applications*
-
-9. Transformers
-10. Advanced GANs
-11. Music Generation
-12. World Models
-13. Multimodal Models
-14. Conclusion
-
-## 🌟 Star History
-
-<img src="https://api.star-history.com/svg?repos=davidADSP/Generative_Deep_Learning_2nd_Edition&type=Date" width="500px">
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Kaggle API
 
