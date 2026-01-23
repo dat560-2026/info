@@ -151,8 +151,5 @@ Allowed area:
 
    where `username` is your GitHub username.
 
-   Note that to register with the bot, you must previously have registered with QuickFeed.
-   Hence, please make sure that you have joined the [`dat560-2026`](https://github.com/dat560-2026) GitHub organization and registered with QuickFeed first.
-
    If you need help with registering on the server, send a message in `#new-users`.
 -->
