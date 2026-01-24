@@ -76,29 +76,29 @@
 |      | 20.02.2026 |  LLM fine-tuning - part 2        | VS       |                                |          |
 | 9    | 25.02.2026 |                                      |          |                                |          |
 |      | 25.02.2026 |               | GIB      |                                |          |
-|      | 27.02.2026 |                                      |          |                                |          |
-| 10   | 04.03.2026 |                                      |          |                                |          |
-|      | 05.03.2026 | Lab                                  | GIB      |                                |          |
-|      | 04.03.2026 |                                      |          |                                |          |
-| 11   | 11.03.2026 |                                      |          |                                |          |
-|      | 11.03.2026 | **Assignment 3 deadline**                                   | GIB      |                                |          |
-|      | 13.03.2026 |                                      |          |                                |          |
-| 12   | 18.03.2026 |                                      |          |                                |          |
+|      | 27.02.2026 |  Multilingual Language Models        | PG         |                                |          |
+| 10   | 04.03.2026 |  Mulitmodal Models - part 1          | PG         |                                |          |
+|      | 04.03.2026 | Lab                                  | GIB      |                                |          |
+|      | 06.03.2026 |  Mulitmodal Models - part 2          | PG       |                                |          |
+| 11   | 11.03.2026 |  Music and Voice                     | PG       |                                |          |
+|      | 11.03.2026 | **Assignment 3 deadline**            | GIB      |                                |          |
+|      | 13.03.2026 |  Knowledge and RAG                   | PG       |                                |          |
+| 12   | 18.03.2026 |  Agentic generative AI               | PG       |                                |          |
 |      | 18.03.2026 | Lab                                  | GIB      |                                |          |
-|      | 20.03.2026 |                                      |          |                                |          |
-| 13   | 25.03.2026 |                                      |          |                                |          |
+|      | 20.03.2026 |  World models                        | PG       |                                |          |
+| 13   | 25.03.2026 |  Evaluation of Generative Systems    | PG       |                                |          |
 |      | 25.03.2026 | Lab                                  | GIB      |                                |          |
-|      | 27.03.2026 |                                      |          |                                |          |
+|      | 27.03.2026 |  Ethics and responsible AI, fairness and bias, alignment | PG         |                                |          |
 | 14   | 01.04.2026 | No lecture easter week                                     |          |                                |          |
 |      | 01.04.2026 | No lecture easter week                                     |          |                                |          |
-|      | 02.04.2026 | No lecture easter week                                  | GIB      |                                |          |
-| 15   | 08.04.2026 |                                      |          |                                |          |
-|      | 08.04.2026 |                                      |          |                                |          |
-|      | 09.04.2026 | Lab                                  | GIB      |                                |          |
-| 16   | 15.04.2026 |                                      |          |                                |          |
+|      | 03.04.2026 | No lecture easter week                                  | GIB      |                                |          |
+| 15   | 08.04.2026 | Invited talk                         | TBD      |                                |          |
+|      | 08.04.2026 | Lab                                  | GIB      |                                |          |
+|      | 10.04.2026 | Invited talk                         | TBD      |                                |          |
+| 16   | 15.04.2026 | Lab                                  |          |                                |          |
 |      | 15.04.2026 | **Project + report due**                                     |          |                                |          |
-|      | 16.04.2026 | Lab                                  |       |                                |          |
-| 17   | 22.04.2026 |                                      |          |                                |          |
+|      | 17.04.2026 | Lab                                  |       |                                |          |
+| 17   | 22.04.2026 | Project presentation + Q&A                                      |          |                                |          |
 |      | 22.04.2026 | Project presentation + Q&A                                  |       |                                |          |
 |      | 24.04.2026 |  Project presentation + Q&A                                    |          |                                |          |
 
