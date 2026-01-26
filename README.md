@@ -70,11 +70,11 @@
 |      | 06.02.2026 | LLM foundations – part 1            | VS       |                                |          |
 | 7    | 11.02.2026 | LLM foundations – part 2                       | VS       |                                |          |
 |      | 11.02.2026 |  Lab              |          |       GIB                         |          |
-|      | 13.02.2026 |  LM prompting                     | VS       |                                |          |
+|      | 13.02.2026 |  LLM prompting                     | VS       |                                |          |
 | 8    | 18.02.2026 |  LLM fine-tuning - part 1        | VS       |                                |          |
 |      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
 |      | 20.02.2026 |  LLM fine-tuning - part 2        | VS       |                                |          |
-| 9    | 25.02.2026 |                                      |          |                                |          |
+| 9    | 25.02.2026 |  LLM Applications (tentative)                                    |    VS      |                                |          |
 |      | 25.02.2026 |               | GIB      |                                |          |
 |      | 27.02.2026 |  Multilingual Language Models        | PG         |                                |          |
 | 10   | 04.03.2026 |  Mulitmodal Models - part 1          | PG         |                                |          |
