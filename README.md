@@ -12,6 +12,7 @@
 
 # Updates
 - Assignment 1 is now released, you should have received GitHub org invite and link to the assignment in Canvas. See this [guide](assignments/assignment1.md) to get started and for useful tips.
+- Early dialog and feedback is ready in Canvas (see annoucements).
 
 # Structure
 - Lectures:
