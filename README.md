@@ -5,14 +5,16 @@
 - Labs
    - [Signup](signup.md)
    - [Assignment 1](assignments/assignment1.md)
+   - [Assignment 1](assignments/assignment1.md)
 - [Updates](#Updates)
 - Communication
    - [Discord server](https://github.com/dat240-2025/info/blob/main/signup.md#discord-dat560-server-registration)
    - [Discord server invite](https://discord.gg/Wc6AqbAqE5)
 
 # Updates
+- [28.01.2026] Assignment 2 is now released, you should have received GitHub org invite and link to the assignment in Canvas. See this [guide](assignments/assignment2.md) to get started and for useful tips.
+- [23.01.2026] Early dialog and feedback is ready in Canvas (see annoucements).
 - Assignment 1 is now released, you should have received GitHub org invite and link to the assignment in Canvas. See this [guide](assignments/assignment1.md) to get started and for useful tips.
-- Early dialog and feedback is ready in Canvas (see annoucements).
 
 # Structure
 - Lectures:
