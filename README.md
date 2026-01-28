@@ -66,6 +66,7 @@
 |     |  | ProGAN                               | VS       |  |          |
 |     |  | StyleGAN                               | VS       |  |          |
 | 5    | 28.01.2026 | Language Models – part 1            | VS       |                                |          |
+|     | 28.01.2026 | RNNs           | VS       |      [slides](slides/Lecture06-RecurrentNeuralNetworks.pdf)                          |          |
 |      | 28.01.2026 | **Assignment 1 deadline**               |          |                                |          |
 |      | 29.01.2026 | Language Models – part 2            | VS      |                                |          |
 | 6    | 04.02.2026 | **No lecture**           | Department workshop       |                                |          |
