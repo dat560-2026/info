@@ -5,7 +5,7 @@
 - Labs
    - [Signup](signup.md)
    - [Assignment 1](assignments/assignment1.md)
-   - [Assignment 1](assignments/assignment1.md)
+   - [Assignment 2](assignments/assignment2.md)
 - [Updates](#Updates)
 - Communication
    - [Discord server](https://github.com/dat240-2025/info/blob/main/signup.md#discord-dat560-server-registration)
