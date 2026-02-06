@@ -72,7 +72,7 @@
 | 6    | 04.02.2026 | **No lecture**           | Department workshop       |                                |          |
 |      | 04.02.2026 | Lab                                  | GIB      |                                |          |
 |      | 06.02.2026 | LLM foundations – part 1            | VS       | Generative Deep Learning Ch. 9 and [RLHF book](https://rlhfbook.com/)                               |          |
-|     | 28.01.2026 | Transformers (pre-training and RLHF)           | VS       |      [slides](slides/Lecture-08-Transformers.pdf)                           |          |
+|     |  | Transformers (pre-training and RLHF)           | VS       |      [slides](slides/Lecture-08-Transformers.pdf)                           |          |
 | 7    | 11.02.2026 | LLM foundations – part 2                       | VS       |                                |          |
 |      | 11.02.2026 |  Lab              |          |       GIB                         |          |
 |      | 13.02.2026 |  LLM prompting                     | VS       |                                |          |
