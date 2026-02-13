@@ -100,10 +100,13 @@
 | 15   | 08.04.2026 | Invited talk                         | TBD      |                                |          |
 |      | 08.04.2026 | Lab                                  | GIB      |                                |          |
 |      | 10.04.2026 | Invited talk                         | TBD      |                                |          |
-| 16   | 15.04.2026 | Lab                                  |          |                                |          |
-|      | 15.04.2026 | **Project + report due**                                     |          |                                |          |
-|      | 17.04.2026 | Lab                                  |       |                                |          |
-| 17   | 22.04.2026 | Project presentation + Q&A                                      |          |                                |          |
-|      | 22.04.2026 | Project presentation + Q&A                                  |       |                                |          |
-|      | 24.04.2026 |  Project presentation + Q&A                                    |          |                                |          |
+| 16   | 15.04.2026 | Invited talk                                    |          |                                |          |
+|      | 15.04.2026 | Lab                                    |          |                                |          |
+|      | 17.04.2026 | Invited talk                                    |       |                                |          |
+| 17   | 22.04.2026 | Lab                                    |          |                                |          |
+|      | 22.04.2026 |  Invited talk                                   |       |                                |          |
+|      | 24.04.2026 |  **Project + report due**                                    |          |                                |          |
+| 18   | 27.04.2026 | Project presentation + Q&A                                      |          |                                |          |
+|      | 27.04.2026 | Project presentation + Q&A                                  |       |                                |          |
+|      | 29.04.2026 |  Project presentation + Q&A                                    |          |                                |          |
 
