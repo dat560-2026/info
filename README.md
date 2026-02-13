@@ -86,10 +86,10 @@
 |      | 04.03.2026 | Lab                                  | GIB      |                                |          |
 |      | 06.03.2026 |  Mulitmodal Models - part 2          | PG       |                                |          |
 | 11   | 11.03.2026 |  Music and Voice                     | PG       |                                |          |
-|      | 11.03.2026 | **Assignment 3 deadline**            | GIB      |                                |          |
+|      | 11.03.2026 |  Lab        | GIB      |                                |          |
 |      | 13.03.2026 |  Knowledge and RAG                   | PG       |                                |          |
 | 12   | 18.03.2026 |  Agentic generative AI               | PG       |                                |          |
-|      | 18.03.2026 | Lab                                  | GIB      |                                |          |
+|      | 18.03.2026 | **Assignment 3 deadline**                                     | GIB      |                                |          |
 |      | 20.03.2026 |  World models                        | PG       |                                |          |
 | 13   | 25.03.2026 |  Evaluation of Generative Systems    | PG       |                                |          |
 |      | 25.03.2026 | Lab                                  | GIB      |                                |          |
