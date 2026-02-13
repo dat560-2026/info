@@ -75,7 +75,7 @@
 |     |  | Transformers (pre-training and RLHF)           | VS       |      [slides](slides/Lecture-08-Transformers.pdf)                           |          |
 | 7    | 11.02.2026 | LLM foundations – part 2                       | VS       |   [slides](slides/Lecture-10-RLHF.pdf)                             |          |
 |      | 11.02.2026 |  Lab              |          |       GIB                         |          |
-|      | 13.02.2026 |  LLM prompting                     | VS       |                                |          |
+|      | 13.02.2026 |  LLM RLHF continued                     | VS       |    [Exercises](exercises/rlhf_exercise.pdf)                            |          |
 | 8    | 18.02.2026 |  LLM fine-tuning - part 1        | VS       |                                |          |
 |      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
 |      | 20.02.2026 |  LLM fine-tuning - part 2        | VS       |                                |          |
