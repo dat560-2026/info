@@ -12,6 +12,7 @@
    - [Discord server invite](https://discord.gg/Wc6AqbAqE5)
 
 # Updates
+- [17.02.2026] Assignment 2 deadline is extended to **22.02.2026 23.59**
 - [28.01.2026] Assignment 2 is now released, you should have received GitHub org invite and link to the assignment in Canvas. See this [guide](assignments/assignment2.md) to get started and for useful tips.
 - [23.01.2026] Early dialog and feedback is ready in Canvas (see annoucements).
 - Assignment 1 is now released, you should have received GitHub org invite and link to the assignment in Canvas. See this [guide](assignments/assignment1.md) to get started and for useful tips.
