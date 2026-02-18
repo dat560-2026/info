@@ -77,7 +77,7 @@
 | 7    | 11.02.2026 | LLM foundations – part 2                       | VS       |   [slides](slides/Lecture-10-RLHF.pdf)                             |          |
 |      | 11.02.2026 |  Lab              |          |       GIB                         |          |
 |      | 13.02.2026 |  LLM RLHF continued                     | VS       |    [Exercises](exercises/rlhf_exercises.pdf)                            |          |
-| 8    | 18.02.2026 |  LLM Prompting Techniques        | VS       |       [slides](slides/Lecture_prompting.pdf)                          |          |
+| 8    | 18.02.2026 |  LLM Prompting Techniques        | VS       |       [slides](slides/Lecture11_prompting.pdf)                          |          |
 |      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
 |      | 20.02.2026 |  LLM fine-tuning         | VS       |                                |          |
 | 9    | 25.02.2026 |  LLM Applications (tentative)                                    |    VS      |                                |          |
