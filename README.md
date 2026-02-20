@@ -81,7 +81,7 @@
 |      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
 |      | 20.02.2026 |  LLM fine-tuning         | VS       |     [slides](slides/Lecture12_llm_finetuning.pdf)                           |          |
 | 9    | 25.02.2026 |  Prompting in Ollama + LoRA fine-tuning with unsloth framework.                                    |    GIB      |                                |          |
-|      | 25.02.2026 |               | GIB      |                                |          |
+|      | 25.02.2026 |    Lab           | GIB      |                                |          |
 |      | 27.02.2026 |  Multilingual Language Models        | PG         |                                |          |
 | 10   | 04.03.2026 |  Mulitmodal Models - part 1          | PG         |                                |          |
 |      | 04.03.2026 | Lab                                  | GIB      |                                |          |
