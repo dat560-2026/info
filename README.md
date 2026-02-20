@@ -80,7 +80,7 @@
 | 8    | 18.02.2026 |  LLM Prompting Techniques        | VS       |       [slides](slides/Lecture11_prompting.pdf)  Hands-On Large Language Models [book](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)                        |          |
 |      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
 |      | 20.02.2026 |  LLM fine-tuning         | VS       |     [slides](slides/Lecture12_llm_finetuning.pdf)                           |          |
-| 9    | 25.02.2026 |  LLM Applications (tentative)                                    |    VS      |                                |          |
+| 9    | 25.02.2026 |  Prompting in Ollama + LoRA fine-tuning with unsloth framework.                                    |    GIB      |                                |          |
 |      | 25.02.2026 |               | GIB      |                                |          |
 |      | 27.02.2026 |  Multilingual Language Models        | PG         |                                |          |
 | 10   | 04.03.2026 |  Mulitmodal Models - part 1          | PG         |                                |          |
