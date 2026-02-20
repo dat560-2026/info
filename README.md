@@ -79,7 +79,7 @@
 |      | 13.02.2026 |  LLM RLHF continued                     | VS       |    [Exercises](exercises/rlhf_exercises.pdf)                            |          |
 | 8    | 18.02.2026 |  LLM Prompting Techniques        | VS       |       [slides](slides/Lecture11_prompting.pdf)  Hands-On Large Language Models [book](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)                        |          |
 |      | 18.02.2026 | **Assignment 2 deadline**                                  | GIB      |                                |          |
-|      | 20.02.2026 |  LLM fine-tuning         | VS       |                                |          |
+|      | 20.02.2026 |  LLM fine-tuning         | VS       |     [slides](slides/Lecture12_llm_finetuining.pdf)                           |          |
 | 9    | 25.02.2026 |  LLM Applications (tentative)                                    |    VS      |                                |          |
 |      | 25.02.2026 |               | GIB      |                                |          |
 |      | 27.02.2026 |  Multilingual Language Models        | PG         |                                |          |
