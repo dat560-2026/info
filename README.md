@@ -98,7 +98,7 @@
 | 14   | 01.04.2026 | No lecture easter week                                     |          |                                |          |
 |      | 01.04.2026 | No lecture easter week                                     |          |                                |          |
 |      | 03.04.2026 | No lecture easter week                                  | GIB      |                                |          |
-| 15   | 08.04.2026 | Invited talk                         | TBD      |                                |          |
+| 15   | 08.04.2026 | Invited talk                         | Venktesh V      |                                |          |
 |      | 08.04.2026 | Lab                                  | GIB      |                                |          |
 |      | 10.04.2026 | Invited talk                         | TBD      |                                |          |
 | 16   | 15.04.2026 | Invited talk                                    |          |                                |          |
