@@ -85,7 +85,7 @@
 |      | 27.02.2026 |  Multilingual Language Models        | PG         |    [slides](slides/Lecture13_multilingual_llms.pdf)                            |          |
 | 10   | 04.03.2026 |  Mulitmodal Models - part 1          | PG         |    [slides](slides/Lecture14_Multimodal_Models1.pdf)                            |          |
 |      | 04.03.2026 | Lab                                  | GIB      |                                |          |
-|      | 06.03.2026 |  Mulitmodal Models - part 2          | PG       |                                |          |
+|      | 06.03.2026 |  Mulitmodal Models - part 2          | PG       |    [slides](slides/Lecture14_Multimodal_Models2.pdf)                             |          |
 | 11   | 11.03.2026 |  Music and Voice                     | PG       |                                |          |
 |      | 11.03.2026 |  Lab        | GIB      |                                |          |
 |      | 13.03.2026 |  Knowledge and RAG                   | PG       |                                |          |
