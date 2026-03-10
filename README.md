@@ -86,7 +86,7 @@
 | 10   | 04.03.2026 |  Mulitmodal Models - part 1          | PG         |    [slides](slides/Lecture14_Multimodal_Models1.pdf)                            |          |
 |      | 04.03.2026 | Lab                                  | GIB      |                                |          |
 |      | 06.03.2026 |  Mulitmodal Models - part 2          | PG       |    [slides](slides/Lecture15_Multimodal_Models2.pdf)                             |          |
-| 11   | 11.03.2026 |  Music and Voice                     | PG       |                                |          |
+| 11   | 11.03.2026 |  Music                      | PG       |     [slides](slides/Lecture16_Music_Generation.pdf)                           |          |
 |      | 11.03.2026 |  Lab        | GIB      |                                |          |
 |      | 13.03.2026 |  Knowledge and RAG                   | PG       |                                |          |
 | 12   | 18.03.2026 |  Agentic generative AI               | PG       |                                |          |
