@@ -89,7 +89,7 @@
 | 11   | 11.03.2026 |  Music                      | PG       |     [slides](slides/Lecture16_Music_Generation.pdf)                           |          |
 |      | 11.03.2026 |  Lab        | GIB      |                                |          |
 |      | 13.03.2026 |  Knowledge and RAG                   | PG       |    [slides](slides/Lecture17_RAG.pdf)                            |          |
-| 12   | 18.03.2026 |  Agentic generative AI               | PG       |                                |          |
+| 12   | 18.03.2026 |  Agentic generative AI               | PG       |    [slides](slides/Lecture18_Agents.pdf)                         |          |
 |      | 18.03.2026 | **Assignment 3 deadline**                                     | GIB      |                                |          |
 |      | 20.03.2026 |  World models                        | PG       |                                |          |
 | 13   | 25.03.2026 |  Evaluation of Generative Systems    | PG       |                                |          |
