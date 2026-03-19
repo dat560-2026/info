@@ -19,7 +19,7 @@ The goal is not just model performance, but also rigorous experimentation, repro
 
 ## 3) Data Source and Split Policy (Required)
 
-Download the dataset from [here](ux.uis.no/~vsetty/data/video_sample.tgz).
+Download the dataset from [here](https://ux.uis.no/~vsetty/data/video_sample.tgz).
 
 Untar the tgz file with command in CLI `tar -xvzf video_sample.tgz`
 
