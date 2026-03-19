@@ -1,89 +1,284 @@
-# Fake News Detection in TikTok Short-Form Videos
+# DAT560 Class Project: Multimodal Fake-News Detection on FakeTT
 
-## Motivation
-
-Short-form video platforms such as TikTok, YouTube Shorts, and Kuaishou have reshaped how people consume news and public information. Given the sheer volume of uploads, detection systems must be not only accurate but also computationally efficient [2]. Rich multimodal signals and highly optimized recommendation systems allow fake news short videos to attract massive attention before professional fact-checking becomes available, amplifying societal risks [2].
-
-Compared to text-only fake news, short news videos are harder to analyze: manipulations may occur in any modality and at any granularity, and successful fakes rarely contain glaring artifacts in a single stream. Instead, they often exploit **cross-modal inconsistencies** — where each modality looks plausible alone but the joint message is misleading [2].
-
-This project aims to **make fact-checking fun and future-proof** by teaching machines to _watch_, _listen_, and _read_ videos — just like we do — and figure out what's real and what's not.
+## 1) Project Title
+**Improving Multimodal Fake-News Detection on FakeTT with Off-the-Shelf Models and Prompt Engineering**
 
 ---
 
-### Dataset
+## 2) Project Context and Motivation
+Misinformation on short-video platforms is a high-impact societal challenge. The FakeTT dataset provides multimodal signals that make it an effective benchmark for fake-news detection.
 
-This project will use a subset of the **FakeTT dataset**, a multimodal dataset designed for misinformation detection in English short-form videos [1]. FakeTT contains labeled samples collected from TikTok, each comprising the video, title, and associated metadata such as user profiles and engagement signals [1].
+This class project asks you to:
+1. Reproduce a **strong baseline** using limited supervision. You may use the baseline here https://github.com/ICTMCG/FakingRecipe/tree/main
+2. Build an **advanced system** centered on **off-the-shelf multimodal LLMs (MLLMs)**. You will be given access to one of the MLLMs on ollama server hosted on UiS servers.
+3. Use **prompt engineering** (and optional fine-tuning) to improve over reported paper-style baselines on the provided subset.
 
-For training, validation, and testing, we will follow the **chronological split protocol**, using 70%/15%/15% of videos respectively [2]. This ensures temporal consistency and prevents data leakage from future posts into training data.
-
-> **Team Size:** The scope of this project is large enough for a group of two, but it can be simplified for a single-person project as well.
-
----
-
-## 🔎 Research Questions
-
-1. **Claim Check:** Can we automatically extract factual claims from a video's speech, subtitles, and visuals?
-
-2. **Text vs. Talk:** Do transcripts, captions, or on-screen text contribute more when spotting suspicious claims?
-
-3. **Spot the Lie:** Can we detect when a video's visuals and text don't match (e.g., when the voice says one thing but the image shows another)? This is particularly relevant since fake news short videos often exploit cross-modal inconsistencies where each modality looks plausible alone but the joint message is misleading [2].
-
-4. **Déjà Vu Detector:** Can we catch videos being reused in misleading ways?
-
-5. **Fake Formula:** What patterns make fake videos go viral?
+The goal is not just model performance, but also rigorous experimentation, reproducibility, and scientific reasoning.
 
 ---
 
-## 🛠️ Skills & Tools You'll Need
+## 3) Data Source and Split Policy (Required)
 
-| Category | Examples |
-|---|---|
-| **Machine Learning & NLP** | Transformers, BERT, text classification |
-| **Computer Vision** | Feature extraction, CLIP, OCR |
-| **Multimodal ML** | Fusing text, audio, and visual modalities |
-| **Programming & Frameworks** | Python, HuggingFace, PyTorch |
-| **Research Methods** | Data annotation, evaluation metrics, experiment design |
+Download the dataset from [here](ux.uis.no/~vsetty/data/video_sample.tgz).
 
----
+Untar the tgz file with command in CLI `tar -xvzf video_sample.tgz`
 
-## 📊 Suggested Approach
+Use this directory structure exactly:
+- `video_sample/train/`
+- `video_sample/val/`
+- `video_sample/test/`
 
-### Phase 1: Data Preparation
-- Sample and preprocess a balanced subset from the FakeTT dataset [1]
-- Extract video frames, audio transcripts, on-screen text (via OCR), and metadata (user profiles, engagement signals) [1]
-- Apply the 70%/15%/15% chronological split for train/validation/test sets [2]
-
-### Phase 2: Unimodal Baselines
-- Train separate classifiers on **text-only**, **audio-only**, and **visual-only** features to answer Research Question 2
-- Compare performance across modalities to understand which signals carry the most discriminative power
-
-### Phase 3: Multimodal Fusion
-- Combine modalities using late fusion, early fusion, or attention-based approaches
-- Focus on detecting **cross-modal inconsistencies** — a key characteristic of fake news short videos where manipulations may occur in any modality and at any granularity [2]
-- Address Research Question 3
-
-### Phase 4: Claim Extraction & Verification
-- Use NLP pipelines to extract factual claims from transcripts
-- Compare against known fact-checks (Research Question 1)
-
-### Phase 5: Virality & Pattern Analysis
-- Analyze engagement metadata to identify what makes fake content spread (Research Question 5)
-- Leverage the user profile and engagement signal data available in FakeTT [1]
+### Data usage rules
+- You may use sampled **train/val** for:
+  - prompt development,
+  - few-shot in-context examples,
+  - model calibration,
+  - optional fine-tuning.
+- You must evaluate final results on the sampled **test (50%)** only.
+- Do not tune on the test set.
 
 ---
 
-## 📦 Deliverables
+## 4) Core Deliverables
 
-| Deliverable | Description |
-|---|---|
-| **Working Prototype** | A functional system capable of classifying TikTok-style videos as real or fake using multimodal signals |
-| **Technical Report** | Documentation of methodology, experimental setup, results, and error analysis |
-| **Ethics & Limitations Analysis** | Discussion of dataset biases, potential for misuse, responsible deployment considerations, and the societal risks of undetected misinformation [2] |
-| **Final Presentation & Live Demo** | In-class demonstration with Q&A session |
+Each team must submit:
+1. **Baseline run** (required)
+2. **Advanced solution run** (required)
+3. A final report with experimental evidence
+4. Reproducible code and run instructions
 
 ---
 
-## 📚 Key References
+## 5) Task Definition
 
-- **FakeTT** (Bu et al., 2024) — Multimodal dataset for misinformation detection in English short-form TikTok videos [1]
-- **FVC** (Papadopoulou et al., 2019) — Multimodal dataset for fake news detection in real-world news videos, which can serve as a complementary benchmark [1]
+### Primary task
+Binary classification of fake-news content:
+- **Label 1:** Fake / misleading
+- **Label 0:** Real / non-misleading
+
+### Inputs
+Use all available modalities provided in the dataset package:
+- Video frames (sampled clips or keyframes)
+- Textual fields (title, OCR, ASR transcript, hashtags, description, comments)
+- Metadata fields released with the dataset
+
+---
+
+## 6) Required System 1: Baseline
+
+Implement the following baseline exactly:
+
+1. Build a **text-only supervised classifier** using train/val.
+2. Text input must concatenate available textual fields per sample.
+3. Use either:
+   - TF-IDF + Logistic Regression, or
+   - RoBERTa-base with a linear classification head.
+4. Select hyperparameters on validation only.
+5. Report final metrics on test only.
+
+### Baseline minimum requirements
+- Clear preprocessing pipeline
+- Explicit train/val procedure
+- At least one hyperparameter setting justified
+- Final test results on the 50% sampled test split
+
+---
+
+## 7) Required System 2: Advanced Multimodal LLM Solution
+
+This is the central component of the project.
+
+### Goal
+Use one or more off-the-shelf multimodal LLMs and prompt engineering to outperform the baseline.
+
+### Required advanced elements
+1. **Prompt design strategy**
+   - Role prompting (fact-checker, media forensics analyst)
+   - Structured outputs (JSON with label + confidence + rationale)
+   - Instruction constraints (evidence-first reasoning)
+
+2. **Few-shot prompting**
+   - Curate high-quality train/val exemplars
+   - Compare 0-shot vs 1/3/5-shot
+
+3. **Chain-of-verification style prompting**
+   - Ask model to first identify claims, then cross-check internal consistency, then classify
+   - Keep final output concise and machine-parseable
+
+4. **Multimodal evidence decomposition**
+   - Separate checks for visual cues vs textual cues
+   - Late fusion at decision layer (rule-based, confidence-weighted, or learned)
+
+5. **Self-consistency / ensemble prompting**
+   - Multiple prompt variants or multiple model calls
+   - Aggregate decisions via majority vote or confidence scoring
+
+6. **Error-aware prompting loop**
+   - Analyze val errors
+   - Introduce targeted prompt modifications for known failure types
+
+### Fine-tuning policy
+Teams may fine-tune smaller models using:
+- university GPUs, or
+- their own compute resources.
+
+Possible strategies:
+- LoRA/QLoRA fine-tuning of text LLMs on extracted multimodal summaries
+- Fine-tuning multimodal encoders/classifiers on train+val protocol
+- Distillation: use MLLM outputs as soft labels to train a smaller deployable model
+
+If you fine-tune, report:
+- hardware and runtime,
+- training budget,
+- parameter count / trainable params,
+- reproducibility seed(s).
+
+---
+
+## 8) Experimental Design Requirements
+
+### Minimum experiments
+You must report at least:
+1. Baseline performance
+2. Advanced MLLM performance
+3. Ablation(s) showing what helped
+
+### Required ablations
+- No visual input vs visual+text input
+- 0-shot vs few-shot
+- Prompt template A vs B vs C
+- Single-pass vs self-consistency voting
+- With/without confidence threshold tuning on val
+
+### Reproducibility checklist
+- Fixed random seeds
+- Exact sampled split files saved and versioned
+- Prompt templates versioned in code or config
+- Evaluation script deterministic and documented
+
+---
+
+## 9) Evaluation Metrics (Required)
+
+Report the following on test (50% sample):
+- Accuracy
+- Precision
+- Recall
+- F1 score (macro and/or binary, specify clearly)
+- Confusion matrix
+
+If class imbalance exists, emphasize F1 and per-class performance.
+
+Also include:
+- Validation metrics for model selection
+- Calibration/threshold selection procedure (if any)
+- Statistical robustness (e.g., multiple seeds or bootstrap CI if feasible)
+
+---
+
+## 10) Improvement Requirement
+
+Because this class uses a fixed sampled subset, improvement is defined as:
+- outperforming your reproduced baseline and/or paper-inspired baseline on the same sampled setup,
+- with transparent and fair comparisons.
+
+You are expected to explain **why** your prompt/model design improved results (or failed to), supported by error analysis.
+
+---
+
+## 11) Error Analysis (Required)
+
+Include qualitative and quantitative analysis of failures:
+- False positives: what patterns caused over-flagging?
+- False negatives: what misinformation styles were missed?
+- Modality conflict cases: text says one thing, visuals suggest another
+- Ambiguous/noisy cases and model uncertainty
+
+Provide at least 8–10 representative examples with short commentary.
+
+---
+
+## 12) Project Timeline (4–6 weeks)
+
+### Week 1
+- Data setup, sampling, preprocessing checks
+- Define baseline and evaluation scripts
+
+### Week 2
+- Train/run baseline, validate pipeline integrity
+- Draft first MLLM prompt templates
+
+### Week 3
+- Prompt engineering iterations (few-shot, decomposition, structured output)
+- Run val ablations and error analysis
+
+### Week 4
+- Finalize advanced system
+- Run locked test evaluation
+
+### Week 5/6
+- Fine-tuning extension
+- Additional robustness checks and final polishing
+
+---
+
+## 13) Submission Package
+
+1. **Code repository** with:
+   - data loading scripts
+   - baseline code
+   - advanced MLLM pipeline
+   - prompt templates/configs
+   - evaluation scripts
+
+2. **Final report** (8–12 pages) including:
+   - problem framing and related methods
+   - baseline approach
+   - advanced approach and prompt design
+   - experimental setup and metrics
+   - results table(s)
+   - ablations
+   - error analysis
+   - limitations and future work
+
+3. **Reproducibility appendix**:
+   - environment details
+   - model versions/APIs used
+   - hardware usage
+   - run commands
+
+4. **Short presentation** (10–15 min):
+   - key findings
+   - what worked and what didn’t
+   - lessons learned about MLLMs for misinformation detection
+
+---
+
+## 14) Grading Rubric
+
+- **20%** Baseline correctness and rigor
+- **30%** Advanced MLLM design + prompt engineering quality
+- **20%** Experimental quality (ablations, fairness, reproducibility)
+- **15%** Performance gains and interpretation
+- **15%** Report clarity + presentation quality
+
+---
+
+## 15) Practical Notes
+
+- Keep API costs in mind: cache model outputs and reuse intermediate artifacts.
+- Build robust parsing for LLM outputs (JSON schema recommended).
+- Add guardrails for malformed responses and retry logic.
+- Track every experiment in a log table (prompt version, model, seed, metrics).
+
+---
+
+## 16) Minimum Success Criteria
+
+To pass project requirements, your submission must include:
+1. A working baseline with test metrics,
+2. A working advanced MLLM system with prompt engineering,
+3. A direct comparison showing whether and where the advanced method improves,
+4. Reproducible code and clear documentation.
+
+This project mirrors realistic research engineering workflows in multimodal misinformation detection.
