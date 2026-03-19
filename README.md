@@ -91,7 +91,7 @@
 |      | 13.03.2026 |  Knowledge and RAG                   | PG       |    [slides](slides/Lecture17_RAG.pdf)                            |          |
 | 12   | 18.03.2026 |  Agentic generative AI               | PG       |    [slides](slides/Lecture18_Agents.pdf)                         |          |
 |      | 18.03.2026 | **Assignment 3 deadline**                                     | GIB      |                                |          |
-|      | 20.03.2026 |  World models                        | PG       |                                |          |
+|      | 20.03.2026 |  World models                        | PG       |    [slides](slides/Lecture19_World_Models.pdf)                            |          |
 | 13   | 25.03.2026 |  Evaluation of Generative Systems    | PG       |                                |          |
 |      | 25.03.2026 | Lab                                  | GIB      |                                |          |
 |      | 27.03.2026 |  Ethics and responsible AI, fairness and bias, alignment | PG         |                                |          |
