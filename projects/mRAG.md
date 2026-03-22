@@ -136,7 +136,9 @@ You must:
 You may use:  
 - LangChain    
 - LlamaIndex    
-- or similar frameworks    
+- or similar frameworks
+
+As generation model, you can use the ```qwen3-vl:8b model``` available at [UiS Ollama cluster](https://ollama.ux.uis.no/).
 
 ## 9) Evaluation Metrics (Required)  
   
