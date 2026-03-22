@@ -6,6 +6,10 @@
    - [Signup](signup.md)
    - [Assignment 1](assignments/assignment1.md)
    - [Assignment 2](assignments/assignment2.md)
+- Project
+   - [Signup](https://forms.gle/3RvAdXvNNRHHc8TK7)
+   - [Project Option 1: Multimodal Fake-News Detection on FakeTT](projects/tiktok.md)
+   - [Project Option 2: Multimodal Retrieval-Augmented Generation](projects/mRAG.md)
 - [Updates](#Updates)
 - Communication
    - [Discord server](https://github.com/dat240-2025/info/blob/main/signup.md#discord-dat560-server-registration)
