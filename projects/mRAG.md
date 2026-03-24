@@ -29,7 +29,7 @@ You will work with a **subset of the MMDocIR Evaluation Dataset**, containing:
 Download the collection **here**:
 **https://liveuis-my.sharepoint.com/:u:/g/personal/2929893_uis_no/IQCLEtyFWX1XTJ0gTBMVU2kZAR8QNptwCTgr61WfZ4SaQ3o?e=r0ldZv**
 The provided collection is split into train and test set. You can find the train pdf files here: **https://liveuis-my.sharepoint.com/:u:/g/personal/2929893_uis_no/IQAvyV96RSwTQbfA17KbPDtQAWNp0bAb-l0bkyXtUGjaib8?e=mEKCHF** 
-You can find more details about the full collection here: https://mmdocrag.github.io/MMDocIR/
+More details about the full collection here: https://mmdocrag.github.io/MMDocIR/
 ### Data usage rules  
 - Use the provided dataset split as-is  as respect the usage of each set (i.e. do not train or fine-tune on the test set)
 - Do not modify ground-truth relevance labels  
