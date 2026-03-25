@@ -55,8 +55,8 @@ Each team must submit:
 
 ### Primary task
 Binary classification of fake-news content:
-- **Label 1:** Fake / misleading
-- **Label 0:** Real / non-misleading
+- **annotation fake:** Fake / misleading
+- **annotation real:** Real / non-misleading
 
 ### Inputs
 Use all available modalities provided in the dataset package:
