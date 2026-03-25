@@ -21,6 +21,8 @@ The goal is not just model performance, but also rigorous experimentation, repro
 
 Download the dataset from [here](https://ux.uis.no/~vsetty/data/video_sample.tgz).
 
+The data labels are [here](https://github.com/dat560-2026/info/blob/main/projects/fakett_data_labels.json)
+
 Untar the tgz file with command in CLI `tar -xvzf video_sample.tgz`
 
 Use this directory structure exactly:
