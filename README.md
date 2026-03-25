@@ -106,12 +106,10 @@
 |      | 08.04.2026 | Lab                                  | GIB      |                                |          |
 |      | 10.04.2026 | Invited talk                         | [Jan Hajič jr.](https://ufal.mff.cuni.cz/jan-hajic-jr)      |                                |          |
 | 16   | 15.04.2026 | Invited talk                         |  [Understanding the EU AI Act](https://www.uis.no/en/research/events/stavanger-ai-lab/understanding-the-eu-ai-act)          |                                |   Tuesday 14 April 2026 10:15-11:15, at Universitetsbiblioteket        |
-|      | 15.04.2026 | Lab                                    |          |                                |          |
+|      | 15.04.2026 | Lab                                    | GIB          |                                |          |
 |      | 17.04.2026 | Invited talk                           | [Shadi Saleh](https://www.linkedin.com/in/shadisaleh/)      |                                |          |
-| 17   | 22.04.2026 | Lab                                    |          |                                |          |
-|      | 22.04.2026 |  Invited talk                                   |       |                                |          |
+| 17   | 22.04.2026 | Project presentation + Q&A                                    |          |                                |          |
+|      | 22.04.2026 | Project presentation + Q&A                                   |       |                                |          |
+|      | 24.04.2026 | Project presentation + Q&A                                    |          |                                |          |
 |      | 24.04.2026 |  **Project + report due**                                    |          |                                |          |
-| 18   | 27.04.2026 | Project presentation + Q&A                                      |          |                                |          |
-|      | 27.04.2026 | Project presentation + Q&A                                  |       |                                |          |
-|      | 29.04.2026 |  Project presentation + Q&A                                    |          |                                |          |
 
