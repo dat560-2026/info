@@ -102,7 +102,7 @@
 | 14   | 01.04.2026 | No lecture easter week                                     |          |                                |          |
 |      | 01.04.2026 | No lecture easter week                                     |          |                                |          |
 |      | 03.04.2026 | No lecture easter week                                  | GIB      |                                |          |
-| 15   | 08.04.2026 | Invited talk                         | Venktesh V      |                                |          |
+| 15   | 08.04.2026 | Invited talk                         | [Venktesh V](https://www.su.se/english/profiles/v/vevi4591)      |                                |          |
 |      | 08.04.2026 | Lab                                  | GIB      |                                |          |
 |      | 10.04.2026 | Invited talk                         | [Jan Hajič jr.](https://ufal.mff.cuni.cz/jan-hajic-jr)      |                                |          |
 | 16   | 15.04.2026 | Invited talk                         |  [Understanding the EU AI Act](https://www.uis.no/en/research/events/stavanger-ai-lab/understanding-the-eu-ai-act)          |                                |   Tuesday 14 April 2026 10:15-11:15, at Universitetsbiblioteket        |
