@@ -112,5 +112,5 @@
 | 17   | 22.04.2026 | Project presentation + Q&A                                    |          |                                |          |
 |      | 22.04.2026 | Project presentation + Q&A                                   |       |                                |          |
 |      | 24.04.2026 | Project presentation + Q&A                                    |          |                                |          |
-|      | 24.04.2026 |  **Project + report due**                                    |          |                                |          |
+| 18   | 01.05.2026 |  **Project + report due**                                    |          |                                |          |
 
